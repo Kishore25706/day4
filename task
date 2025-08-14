@@ -1,0 +1,24 @@
+package Day4;
+
+import java.util.Scanner;
+
+public class task {
+
+	private static char[] evencount;
+
+	public static void main(String[] args, Object count) {
+		Scanner sc=new Scanner(System.in);
+		int a=sc.nextInt();
+		int b=sc.nextInt();
+		int oddcount=0;
+		for(int i=a;i>=b;i++)
+		{
+			if(i%2==0)
+			{
+				oddcount++;
+			}
+			System.out.println(evencount);
+			
+		}
+	}
+}
